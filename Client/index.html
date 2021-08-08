@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoNuclear</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <div class="reactorInfo">
+      <div><strong>Name:</strong> <span id="Name"></span></div>
+      <div><strong>Model:</strong> <span id="Model"></span></div>
+      <div><strong>Process:</strong> <span id="Process"></span></div>
+      <div><strong>Capacity:</strong> <span id="Capacity"></span></div>
+      <div>
+        <strong>Grid Connection Date:</strong>
+        <span id="GridConnectionDate"></span>
+      </div>
+      <div><strong>Load Factor:</strong> <span id="LoadFactor"></span></div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
